@@ -1,0 +1,311 @@
+.Allin{
+    width: 1600px;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    
+    height: 800px;
+    background-image: url(../img/Header_Background.png);
+    background-position: center;
+    
+  
+}
+
+.Shapka{
+    background-image: url(../img/Rectangle.png);
+    text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.LoLine{
+    color: gray;
+    position: relative;
+    left: -350px;
+    top: 30px;
+}
+
+
+.Logo{
+    
+    color: white;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    
+}
+
+.Nav{
+    position: relative;
+    top: 15px;
+    right: 200px;
+    color: #1ea78d;
+}
+
+.Mmenu{
+    color: white;
+}
+
+.Mmenu:hover{
+    border-top: #1ea78d 1px groove;
+    color: #1ea78d;
+}
+
+
+
+
+.MCont{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 360px;
+    font-family: 'OpenSansLight';
+    font-size: 50px;
+    
+
+    
+}
+.Logo > p{
+    margin-bottom: 0;
+    margin-left: 15px;
+}
+.Botto{
+    background-color: white;
+    border: none;
+    color: black;
+
+}
+
+#Bra{
+
+    font-family: 'OpenSansBolder';
+    
+}
+
+#Socia{
+
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 400px;
+    border: dashed 1px;
+    margin-left: 45%;
+   
+    
+}
+
+#Socia.img:hover{
+    background-color: #f4f7f9;
+}
+
+#Socia > img{
+    margin-right: 10px;
+}
+
+#Fmain{
+    width: 100%;
+    height: 500px;
+    background-color: #f4f7f9;
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+
+#Features{
+    margin-top: 50px;
+    display: flex;
+    flex-direction:  row;
+    justify-content:space-around;
+   
+}
+
+
+.FParag{
+    width: 200px;
+    font-size: 15px;
+    text-align: left;
+    margin-left: 70px;
+    
+}
+
+.Feat{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+#Dots{
+    position: relative;
+    top: 50px;
+}
+
+#Smain{
+    height: 900px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.Pht{
+    position: relative;
+    width: 25%;
+    overflow: hidden;
+}
+
+.Tteam{
+    position: relative;
+}
+.block{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: rgb(34, 182, 152, 0.8);
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.block1{
+    position: absolute;
+    left: 0px;
+    bottom: 0%;
+    top: 0px;
+    background: rgb(34, 182, 152, 0.8);
+    display: none;
+    height: 300px;  
+}
+
+.Botto:hover{
+    background-color: #1ea78d;
+}
+
+.Bblock{
+    margin-top: 30%;
+    color: white;
+    text-align: center;
+}
+.Tteam:hover .block1{
+    display:block;
+}
+
+.Pht:hover .block{
+    display: block;
+}
+
+.Foto{
+   margin-top: 15px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+
+   
+     
+}
+
+#Tmain{
+    height: 800px;
+    background-color: #f4f7f9;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.Team{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Fmain{
+    height: 600px;
+    background-image: url(../img/City_background.png);
+    text-align: center;
+    padding-top: 100px;
+}
+
+#Fimain{
+    height: 470px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Discu1{
+    display: flex;
+    margin-top: 50px;
+}
+.Discu2{
+    text-align: left;
+    display: flex;
+    
+}
+
+.Discu3{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+}
+
+.Discu3 > div{
+    margin-top: 10px;
+}
+
+.Mapa{
+    height: 215px;
+    background-image: url(../img/map.png);
+    position: relative;
+    background-position: center;
+    
+    
+}
+
+footer{
+    height: 300px;
+    background-color: #1ea78d;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding-top: 60px;
+    color: white;
+}
+
+.Foo33 > div{
+    display: flex;
+    flex-direction: row;
+}
+.Lst:last-child{
+
+    position: absolute;
+    left: 200px;
+}
+
+a:link{
+
+    color: white;
+}
+
+a:visited{
+
+    color:white;
+}
+
+
+
+
+
+    
+
+
+
+
+
